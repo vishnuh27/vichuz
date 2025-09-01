@@ -1,0 +1,31 @@
+1 file changed
++18
+-0
+lines changed
+Search within code
+ 
+Customizable line height
+The default line height has been increased for improved accessibility. You can choose to enable a more compact line height from the view settings menu.
+
+‎assets/css/main.css
++18
+Lines changed: 18 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2 {
+    color: #222;
+}
+a {
+    color: #0077cc;
+}
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
